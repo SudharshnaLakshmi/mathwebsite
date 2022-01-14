@@ -129,8 +129,36 @@ h1{
             cval=0.5*bval*hval;
             ctext.value=""+cval;
 
+            var namefield
+            var bedit,reg,res;
+            namefield=document.querySelector("#bedit");
+            bedit = namefield.value;
+            reg = new RegExp("[0-9].[0-9]");
+            res = bedit.match(reg);
+            if(res==null)
+            {
+                alert("Please Enter a valid Number");
+            }
+            else{
+                alert("Answer is");
+            }
 
-        });
+
+            var namefield
+            var hedit,reg,res;
+            namefield=document.querySelector("#hedit");
+            hedit = namefield.value;
+            reg = new RegExp("[0-9].[0-9]");
+            res = hedit.match(reg);
+            if(res==null)
+            {
+                alert("Please Enter a valid Number");
+            }
+            else{
+                alert("Answer is");
+            }
+            
+            });
 
     </script>
     </br>
@@ -174,6 +202,34 @@ h1{
             Hval=parseInt(Htext.value);
             vval=3.14*Rval*Rval*Hval*0.3;
             vtext.value=""+vval;
+
+            var namefield
+            var Redit,reg,res;
+            namefield=document.querySelector("#Redit");
+            Redit = namefield.value;
+            reg = new RegExp("[0-9].[0-9]");
+            res = Redit.match(reg);
+            if(res==null)
+            {
+                alert("Please Enter a valid Number");
+            }
+            else{
+                alert("Anawer is");
+            }
+            var namefield
+            var hedit,reg,res;
+            namefield=document.querySelector("#Hedit");
+            Hedit = namefield.value;
+            reg = new RegExp("[0-9].[0-9]");
+            res = Hedit.match(reg);
+            if(res==null)
+            {
+                alert("Please Enter a valid Number");
+            }
+            else{
+                alert("Answer is");
+            }
+            
         });
 </script>
 
@@ -184,6 +240,8 @@ h1{
 ## OUTPUT:
 
 ![Output](.//output1.png)
+
+![Output](.//output2.png)
 
 ## Result:
 
